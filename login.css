@@ -34,12 +34,13 @@ a{
 
 
 @media only screen and (max-width: 900px) {
+	#formsection{
+	width: 100%;
+}
   #intro img{
     width: 0;
   }
-  #formsection{
-	width: 100%;
-}
+
 }
 
 button {   
