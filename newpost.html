@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css"/>
+	<title>Create Post</title>	
+</head>
+<body>
+	<nav id="navbar">
+		<a class="navitem" href="forum_cat.html">Home</a>
+		<a class="navitem" href="newpost.html">New Post</a>
+		<a class="navitem" style="float:right;margin-left: auto" href="index.html">Logout</a>
+	</nav>
+	<div id="formsection">
+	    <center> <h1 class="posttitle"> Create Post </h1> </center> 
+	    <form> 
+	    	<select required>
+	    		<option value="" hidden disabled selected>Select Game</option>
+			  <option>Valorant</option>
+			  <option>DOTA 2</option>
+			  <option>LOL</option>
+			  <option>HearthStone</option>
+			  <option>CS GO</option>
+			  <option>Among Us</option>
+			  <option>Fall Guys</option>
+			</select>
+	        <input type="text" placeholder="Post Title" name="username" required>  
+	        <textarea rows=10 required placeholder="Post Description"></textarea>
+	        <center><button type="submit">Create</button></center>
+	    </form> 
+    </div>
+</body>
+</html>
